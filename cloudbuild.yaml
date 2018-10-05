@@ -1,4 +1,4 @@
 steps:
         - name: 'gcr.io/cloud-builders/docker'
-          args: ['build', '-t', 'gcr.io/wave12-chris/my-image', '.']
+          args: ['build', '-t', 'gcr.io/wave12-chris/chris-wave12-immage', '.']
           timeout: 500s
